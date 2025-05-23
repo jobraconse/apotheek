@@ -1,0 +1,10 @@
+[project]
+name = "apotheek"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyside6>=6.9.0",
+    "reportlab>=4.4.1",
+]

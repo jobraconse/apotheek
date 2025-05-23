@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/">
+    <file>images/buy-icon-png-31616.png</file>
+    <file>images/delete-button-png-28554.png</file>
+    <file>images/logo.png</file>
+    <file>images/pil.png</file>
+    <file>images/pillen.png</file>
+    <file>images/plus-icon-13091.png</file>
+    <file>images/shutdown-icon-11830.png</file>
+    <file>images/update-icon-png-25.jpg</file>
+  </qresource>
+</RCC>
