@@ -1,0 +1,35 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "pillen" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"naam"	TEXT,
+	"volume"	TEXT,
+	"prijs"	float,
+	"lnaam"	TEXT,
+	PRIMARY KEY('id' AUTOINCREMENT)
+);
+INSERT INTO "pillen" ("id","naam","volume","prijs","lnaam") VALUES (1,'Oxynorm Instant','10 mg',1.37,'Oxynorm Instant - 10 mg'),
+ (2,'Redomex','10 mg',0.35,'Redomex - 10 mg'),
+ (3,'Trelegy Ellipta','90 dos',8.0,'Trelegy Ellipta - 90 dos'),
+ (4,'Deanxit Pi Pharma','10 mg',6.59,'Deanxit Pi Pharma - 10 mg'),
+ (5,'Laclimella','1mg/2mg',41.0,'Laclimella - 1mg/2mg'),
+ (6,'Tramadol','150mg',4.1,'Tramadol - 150mg'),
+ (7,'Pantomed','40 mg',2.84,'Pantomed - 40 mg'),
+ (8,'Escitalopram','10 mg',3.59,'Escitalopram - 10 mg'),
+ (9,'Inderal','40mg',0.61,'Inderal - 40mg'),
+ (10,'Steovit D3 Citroen','500mg',37.18,'Steovit D3 Citroen - 500mg'),
+ (11,'Closan','10 mg',15.62,'Closan - 10 mg'),
+ (12,'Durogesic','25mcg',4.67,'Durogesic - 25mcg'),
+ (13,'Atozet','10mg/40mg',8.04,'Atozet - 10mg/40mg'),
+ (14,'Xgeva','120mg',8.0,'Xgeva - 120mg'),
+ (15,'Paracetemol Teva','120',1.2,'Paracetemol Teva - 120'),
+ (16,'Cymbalta','60mg',5.47,'Cymbalta - 60mg'),
+ (17,'Lyrica','150mg',9.66,'Lyrica - 150mg'),
+ (18,'Lipantylnano','145mg',3.15,'Lipantylnano - 145mg'),
+ (19,'Arcoxia','90mg',6.33,'Arcoxia - 90mg'),
+ (20,'Lyrica','75mg',6.07,'Lyrica - 75mg'),
+ (21,'Daflon','120 x 500mg',35.98,'Daflon - 120 x 500mg'),
+ (22,'Adenuric','80mg',4.78,'Adenuric - 80mg'),
+ (23,'Jardiance','10mg',0.0,'Jardiance - 10mg'),
+ (24,'Etoricoxib','60mg',11.48,'Etoricoxib - 60mg'),
+ (25,'Celecoxib','200mg',1.29,'Celecoxib - 200mg');
+COMMIT;
